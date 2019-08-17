@@ -69,7 +69,7 @@ namespace args
      * This is not reliable, and will fail for combinatory glyphs, but it's
      * good enough here for now.
      *
-     * \param string The string to count glyphs from
+     * \param string_ The string to count glyphs from
      * \return The UTF-8 glyphs in the string
      */
     inline std::string::size_type Glyphs(const std::string &string_)
