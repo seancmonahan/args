@@ -70,7 +70,7 @@ namespace args
      * good enough here for now.
      *
      * \param string_ The string to count glyphs from
-     * \return The UTF-8 glyphs in the string
+     * \return The number of UTF-8 glyphs in the string
      */
     inline std::string::size_type Glyphs(const std::string &string_)
     {
